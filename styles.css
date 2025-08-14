@@ -1,4 +1,4 @@
-/* Very simple, mobile-first styling */
+/* Simple mobile style creation */
 *{box-sizing:border-box} body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:#0e1326;color:#e9eef7}
 .phone-wrapper{min-height:100vh;display:grid;place-items:center;padding:16px}
 .login-container,.page{width:100%;max-width:420px;background:#131a33;border:1px solid #26325c;border-radius:12px;padding:18px;box-shadow:0 6px 24px rgba(0,0,0,.35)}
@@ -15,4 +15,7 @@ h1,h2{margin:6px 0 12px}
 .row{display:flex;gap:8px;align-items:center}
 .faces{display:flex;gap:10px}
 .radio{display:grid;place-items:center;width:60px;height:60px;border:1px solid #2b3b6b;border-radius:12px}
-.radio input{display:none}
+    .radio:has(input:checked) {
+        outline: 3px solid #56d364; /*The colour*/
+        outline-offset: 2px;
+    }
