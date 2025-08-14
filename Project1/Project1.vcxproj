@@ -134,6 +134,11 @@
     <None Include="..\Student.html" />
     <None Include="..\styles.css" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Images\Happy.png" />
+    <Image Include="..\Images\Neutral.png" />
+    <Image Include="..\Images\Sad.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

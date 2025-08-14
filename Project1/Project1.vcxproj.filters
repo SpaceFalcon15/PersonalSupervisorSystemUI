@@ -22,4 +22,15 @@
     <None Include="..\Student.html" />
     <None Include="..\styles.css" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Images\Happy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Neutral.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Sad.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
