@@ -1,0 +1,18 @@
+/* Very simple, mobile-first styling */
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:#0e1326;color:#e9eef7}
+.phone-wrapper{min-height:100vh;display:grid;place-items:center;padding:16px}
+.login-container,.page{width:100%;max-width:420px;background:#131a33;border:1px solid #26325c;border-radius:12px;padding:18px;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+h1,h2{margin:6px 0 12px}
+.login-inputs,.input,textarea{width:100%;background:#0e1530;border:1px solid #2b3b6b;color:#e9eef7;border-radius:10px;padding:10px 12px;margin:6px 0}
+.login-buttons,.primary,.back,.slot{appearance:none;border:none;border-radius:10px;padding:10px 12px;margin:6px 0;cursor:pointer;color:#0d1328;background:#56d364;font-weight:700}
+.back{background:#2b3b6b;color:#e9eef7}
+.primary{width:100%}
+.card{background:#0e1530;border:1px solid #2b3b6b;border-radius:12px;padding:12px;margin:10px 0}
+.face{font-size:32px}
+.slot-list{display:grid;grid-template-columns:repeat(3, 1fr);gap:8px}
+.slot{background:#1b2447;color:#e9eef7}
+.tag{display:inline-block;background:#1b2447;color:#b8c3f1;border-radius:999px;padding:6px 10px;margin-right:8px}
+.row{display:flex;gap:8px;align-items:center}
+.faces{display:flex;gap:10px}
+.radio{display:grid;place-items:center;width:60px;height:60px;border:1px solid #2b3b6b;border-radius:12px}
+.radio input{display:none}
